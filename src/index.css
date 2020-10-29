@@ -18,7 +18,7 @@ code {
 	min-height: 100vh;
 }
 .box {
-  background-color: salmon;
+  background-color:white;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
@@ -41,5 +41,13 @@ body {
   border: 0;
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
   padding: 1rem 1rem ;
+  transition: transform 0.2s linear;
+}
+.box button:active{
+  transform: scale(0.98)
+}
+.box button:focus{
+  outline: none;
 }
