@@ -20,6 +20,7 @@ const Activity = () => {
 			<div>
 				<p>{activity}</p>
 				<button onClick={newActivity}>New Activity</button>
+                
 			</div>
 		);
 };
