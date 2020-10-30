@@ -44,6 +44,7 @@ body {
   cursor: pointer;
   padding: 1rem 1rem ;
   transition: transform 0.2s linear;
+  
 }
 .box button:active{
   transform: scale(0.98)
