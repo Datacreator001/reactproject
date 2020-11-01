@@ -2,7 +2,7 @@ import React from 'react';
 import Activity from './Activity';
 import Type from './Type';
 import Modal from './Modal';
-import "./button.css"
+
 
 const App = () => {
  
@@ -21,8 +21,8 @@ const App = () => {
          Click on New Activity button to generate a activity to do if you are bored!!!
         </p>
       </Modal>
-      
-			<button className='.button' onClick={openModal}> Open Modal</button>
+      <Type/>
+			<button onClick={openModal}> Open Modal</button>
 		</div>
 	);
 };

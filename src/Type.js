@@ -15,10 +15,10 @@ const Type = () => {
 		}, []);
     
     return (
-        <div>
+        <>
             <p>{type}</p>
             <button onClick={typeInfo}>Type Info</button>
-        </div>
+        </>
     );
 };
 

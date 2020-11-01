@@ -17,11 +17,11 @@ const Activity = () => {
     
     
     return (
-			<div>
+			<>
 				<p>{activity}</p>
 				<button onClick={newActivity}>New Activity</button>
                 
-			</div>
+			</>
 		);
 };
 

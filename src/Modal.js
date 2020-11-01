@@ -30,3 +30,5 @@ const Modal = forwardRef((props, ref) => {
 });
 
 export default Modal;
+
+// The code in this component came from LetsCode on youtube https://www.youtube.com/watch?v=SmMZqh1xdB4
